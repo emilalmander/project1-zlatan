@@ -63,3 +63,16 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+#zlatan-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#zlatan-image {
+    height: 600px;
+    width: 100%;
+    background: url('../image/picture1.jpg') no-repeat center center; 
+}
