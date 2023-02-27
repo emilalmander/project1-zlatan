@@ -118,8 +118,6 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 900px;
-    
-    
   }
   
   .box {
@@ -209,6 +207,8 @@ button[type="submit"] {
     background-size: cover;
     background-position: center;
     margin-top: 300px;
+    clear: left;
+    
 }
 .box1 {
     flex: 0 0 calc(50% - 20px);
