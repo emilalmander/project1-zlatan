@@ -124,7 +124,7 @@ h1, h2 {
     margin: 5px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: rgb(180, 101, 101);
     height: 300px;
     width: 200px;
     
@@ -240,10 +240,6 @@ button[type="submit"] {
         line-height: 25px;
     }
 
-    .footer-logo {
-        font-size: 33px;
-    }
-
     #menu {
         clear: left;
         float: left;
@@ -280,7 +276,6 @@ span + span {
 
 .footer-logo {
     height: 120px;
-    font-size: 55px;
     padding-bottom: 100px;
     text-align: center;
     text-decoration: none;
@@ -291,6 +286,7 @@ span + span {
 span a {
     text-decoration: none;
     color: rgb(180, 101, 101);
+    font-size: 55px;
 }
 
 
