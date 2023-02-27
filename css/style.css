@@ -239,7 +239,7 @@ button[type="submit"] {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
+    
     #menu {
         clear: left;
         float: left;
@@ -265,6 +265,7 @@ button[type="submit"] {
         line-height: 25px;
     }
 }
+
 
 /* footer */
 
