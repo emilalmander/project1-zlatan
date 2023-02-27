@@ -32,7 +32,7 @@ h1, h2 {
 
 
 
-/* nav links */ 
+/* nav links/menu */ 
 
 #menu {
     font-size: 180%;
@@ -63,7 +63,7 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
-
+    /* zlatan image */
 #zlatan-outer {
     height: 600px;
     width: 100%;
@@ -77,10 +77,6 @@ h1, h2 {
     background: url('../image/picture1.jpg') no-repeat center center; 
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-
-} 
 /* text on the image */
 
 #cover-text, #cover-text h2 {
@@ -106,13 +102,13 @@ h1, h2 {
     
     position: absolute;
 }
-
+    /* link in text on the image */
 .stadium-link {
     text-decoration: none;
     color: black;
     font-family: oswald, sans-serif;
-}
-
+}   
+    /* award boxes */
 .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -196,7 +192,7 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
-
+/* fun fact boxes */
 .container1 {
     display: flex;
     flex-wrap: wrap;
@@ -218,23 +214,31 @@ button[type="submit"] {
     box-sizing: border-box;
     margin-bottom: 20px;
     font-size: 34px;
-    text-align: center;
-    
-    
-    
+    text-align: center;  
 }
-
-
+    /* text inside fun fact boxes */
 #fun-fact {
     font-size: 50px;
     font-family: lato, sans-serif;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 /* Media queries */
 
 @media screen and (max-width: 950px) {
+
+    .box1 {
+        overflow: hidden;
+        font-size: 24px;
+        
+    }
+    .box-container {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
     #menu {
         clear: left;
@@ -244,15 +248,6 @@ button[type="submit"] {
         line-height: 25px;
     }
 }
-
-@media screen and (max-width: 950px) {
-
-    .box1 {
-        overflow: hidden;
-        font-size: 24px;
-        
-    }
-}
 @media screen and (max-width: 650px) {
 
     .box1 {
@@ -260,18 +255,6 @@ button[type="submit"] {
         
     }
 }
-
-@media screen and (max-width: 950px) {
-
-    .box-container {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}
-
 @media screen and (max-width: 1450px) {
 
     .box-container {
