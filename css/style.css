@@ -240,6 +240,10 @@ button[type="submit"] {
         line-height: 25px;
     }
 
+    .footer-logo {
+        font-size: 33px;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -265,6 +269,33 @@ button[type="submit"] {
         line-height: 25px;
     }
 }
+
+/* footer */
+
+
+
+span + span {
+    margin-left: 150px;
+}
+
+.footer-logo {
+    height: 120px;
+    font-size: 55px;
+    padding-bottom: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    
+}
+
+span a {
+    text-decoration: none;
+    color: rgb(180, 101, 101);
+}
+
+
+
+
 
 
 
