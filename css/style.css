@@ -159,9 +159,9 @@ h1, h2 {
     
   }
 
+/* text above sign up form */
 
-
-  .sign-up-info {
+.sign-up-info {
     padding: 20px;
     box-sizing: border-box;
     width: 100%;
@@ -177,15 +177,17 @@ h1, h2 {
 
 #sign-up-more-info {
     font-size: 12px;
-    text-align: center;   
+    text-align: center;
+    margin-bottom: 50px;   
 }
 
+/* sign up form */
 
 form {
     margin: auto;
     width: 50%;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1.5px solid #252424;
     border-radius: 10px;
 }
 
@@ -197,7 +199,7 @@ label {
 input[type="text"], input[type="email"], input[type="password"] {
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1.5px solid #252424;
     margin-bottom: 10px;
     width: 100%;
 }
