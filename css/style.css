@@ -119,6 +119,7 @@ h1, h2 {
     justify-content: center;
     max-width: 900px;
     
+    
   }
   
   .box {
@@ -132,11 +133,13 @@ h1, h2 {
     background-color: lightgray;
     height: 300px;
     width: 200px;
+    
 
   }
   
   .box h2 {
     margin-top: 0; 
+    
   }
   
   .box p {
