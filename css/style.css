@@ -202,14 +202,14 @@ button[type="submit"] {
     background-image: url(../image/zlatan.2.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 300px;
+    margin-top: 0px;
     clear: left;
     
 }
 .box1 {
     flex: 0 0 calc(50% - 20px);
     height: 45vh;
-    background-color: rgba(255, 255, 255, 1 );
+    background-color: rgba(255, 255, 255, 0.8 );
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
