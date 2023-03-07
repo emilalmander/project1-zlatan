@@ -152,7 +152,7 @@ h1, h2 {
 #sign-up-text {
     font-size: 100px;
     text-align: center;
-    margin-top: 210px;  
+    margin-top: 20px;  
 }
 
 #sign-up-more-info {
@@ -161,7 +161,7 @@ h1, h2 {
     margin-bottom: 50px;   
 }
 
-/* sign up form */
+/* subscribe form */
 
 form {
     margin: auto;
@@ -181,7 +181,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-radius: 5px;
     border: 1.5px solid #252424;
     margin-bottom: 10px;
-    width: 100%;
+    width: 90%;
 }
 
 button[type="submit"] {
@@ -272,15 +272,16 @@ button[type="submit"] {
 
 
 span + span {
-    margin-left: 150px;
+    margin-left: 100px;
+    
 }
 
 .footer-logo {
-    height: 120px;
     padding-bottom: 100px;
     text-align: center;
     text-decoration: none;
     color: gray;
+    
     
 }
 
@@ -288,6 +289,9 @@ span a {
     text-decoration: none;
     color: rgb(180, 101, 101);
     font-size: 55px;
+    top: -200px;
+    
+    position: relative;
 }
 
 
