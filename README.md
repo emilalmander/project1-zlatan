@@ -34,3 +34,4 @@ header
 * it also has zlatan as a background
 * the cards have a slight opacity to make it more pleasing for the eye
 
+![fun fact](https://user-images.githubusercontent.com/47448917/224490915-54562e25-6448-4c49-aea9-94ec754c9f02.PNG)
