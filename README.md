@@ -26,23 +26,27 @@ navigation
 header
 * the header shows purpose of the page "fanpage" 
 * it also shows the stadium zlatans team Milan plays at, if clicked you get redirected to the stadiums wiki page
-
+***
 ![header](https://user-images.githubusercontent.com/47448917/224490700-3afc93be-1c09-4404-98df-85a0f48d3367.PNG)
 
  fun fact section
 * this section has 4 cards that each has a fun fact about zlatan
 * it also has zlatan as a background
 * the cards have a slight opacity to make it more pleasing for the eye
-
+***
 ![fun fact](https://user-images.githubusercontent.com/47448917/224490915-54562e25-6448-4c49-aea9-94ec754c9f02.PNG)
 
 subscribe section
 * the section gives the user the ability to subscribe for future updates on the site
 * you get to chose a name and surname and also the email you want to get the notification that the site has been updated
+***
 ![subscribe](https://user-images.githubusercontent.com/47448917/224491095-d3e10544-1fbe-4388-a5fc-0cbe3426e075.PNG)
 
  footer
 * the footer provides the user the ability to navigate to social media where they then can find zlatans social media pages
-
+***
 ![footer](https://user-images.githubusercontent.com/47448917/224491167-438b10dd-ea1f-4a10-a4ac-83d0aa7d11c4.PNG)
+
+testing
+
 
