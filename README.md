@@ -13,6 +13,13 @@ FEATURES
 
 *** 
 
-*navigation
+navigation
 
-*
+* Featured at the top of the page, the navigation shows the name of the page to the left that takes you to the start of the page when clicked
+* the other links(awards, home, subscribe and fun fact. clicking awards takes you to another site, clicking on home, subscribe or funfact redirects you on the home page
+* the navigation is in a font that has good contrast to the background.
+* the navigation clearly shows what the different links does
+
+***
+![navbaR1](https://user-images.githubusercontent.com/47448917/224479078-8b57abc9-7b3b-4758-a030-1bd92f312693.PNG)
+
