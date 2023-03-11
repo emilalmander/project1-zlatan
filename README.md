@@ -73,6 +73,19 @@ validator testing
 ![lighthouse score](https://user-images.githubusercontent.com/47448917/224492861-8078439e-9b13-40be-835a-a75df2e84292.PNG)
 
 ***
+deployment
+* the site was deployed to github pages, to deploy the page follow the steps below
+* first go to github repository then go to settings lab
+* select the main branch in the drop down menu
+* once the main branch has been selected the page will provied the link to the website.
 
+***
 
+credits
+
+* the code to make the header was taken from CI love running project.
+
+the images were both from wallpapertag.com, they claim that they own every photo on the page. and in their terms & privacy it says that i can use the images as long as its not for commersial use. 
+
+***
 
