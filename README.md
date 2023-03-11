@@ -44,4 +44,5 @@ subscribe section
  footer
 * the footer provides the user the ability to navigate to social media where they then can find zlatans social media pages
 
+![footer](https://user-images.githubusercontent.com/47448917/224491167-438b10dd-ea1f-4a10-a4ac-83d0aa7d11c4.PNG)
 
