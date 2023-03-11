@@ -60,6 +60,11 @@ awards
 
 ***
 
+style 
+* i used white, black and red as the three main colors
+
+***
+
 BUGS 
 * there are no known bugs at the moment.
 
