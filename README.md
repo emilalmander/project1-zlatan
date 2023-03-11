@@ -23,3 +23,14 @@ navigation
 ***
 ![navbaR1](https://user-images.githubusercontent.com/47448917/224479078-8b57abc9-7b3b-4758-a030-1bd92f312693.PNG)
 
+header
+* the header shows purpose of the page "fanpage" 
+* it also shows the stadium zlatans team Milan plays at, if clicked you get redirected to the stadiums wiki page
+
+![header](https://user-images.githubusercontent.com/47448917/224490700-3afc93be-1c09-4404-98df-85a0f48d3367.PNG)
+
+ fun fact section
+* this section has 4 cards that each has a fun fact about zlatan
+* it also has zlatan as a background
+* the cards have a slight opacity to make it more pleasing for the eye
+
