@@ -226,7 +226,7 @@ button[type="submit"] {
 
 /* Media queries */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 987px) {
 
     .box1 {
         overflow: hidden;
@@ -267,7 +267,21 @@ button[type="submit"] {
     
     font-size: 150%;
 }
+
+
+
 }
+
+@media screen and (max-width: 587px) {
+
+    #menu {
+        font-size: 25px;
+        
+    }
+    
+ 
+}
+
 @media screen and (max-width: 1450px) {
 
     .box-container {
