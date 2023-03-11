@@ -213,13 +213,14 @@ button[type="submit"] {
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
-    font-size: 34px;
-    text-align: center;  
+    font-size: 28px;
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
     /* text inside fun fact boxes */
 #fun-fact {
     font-size: 50px;
-    font-family: lato, sans-serif;
+    font-family: oswald, sans-serif;
     font-weight: bold; 
 }
 
@@ -247,6 +248,14 @@ button[type="submit"] {
         margin-bottom: 20px;
         line-height: 25px;
     }
+    #logo {
+    
+    font-size: 200%;
+    }
+    #fun-fact {
+        font-size: 35px;
+         
+    }
 }
 @media screen and (max-width: 650px) {
 
@@ -254,6 +263,10 @@ button[type="submit"] {
         font-size: 14px;
         
     }
+    #logo {
+    
+    font-size: 150%;
+}
 }
 @media screen and (max-width: 1450px) {
 
