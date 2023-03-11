@@ -47,6 +47,21 @@ subscribe section
 ***
 ![footer](https://user-images.githubusercontent.com/47448917/224491167-438b10dd-ea1f-4a10-a4ac-83d0aa7d11c4.PNG)
 
-testing
+awards
+* the awards page gives the user the ability to gain a grasp of zlatans achivement in his carrier.
+![awards](https://user-images.githubusercontent.com/47448917/224491553-6e57e226-31be-4e32-896a-c371601ea369.PNG)
+ ***
+ testing
+* i have tested the page in chrome and operaGX
+* i also tested different screen sizes using the devtools device toolbar and can confirm it looks good on them.
+* i can also confirm that all the sections looks good and are easy to both read and click on smaller screens.
+* the subscribe section also works correctly by taking an email in the email field and the submit button works. 
+* i can also confirm that there are no broken links, and that you get redirected correctly when clicking links on the page
+
+
+
+BUGS 
+* when i first added the links to the navbar, the awards
+
 
 
