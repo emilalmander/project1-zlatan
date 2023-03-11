@@ -35,3 +35,13 @@ header
 * the cards have a slight opacity to make it more pleasing for the eye
 
 ![fun fact](https://user-images.githubusercontent.com/47448917/224490915-54562e25-6448-4c49-aea9-94ec754c9f02.PNG)
+
+subscribe section
+* the section gives the user the ability to subscribe for future updates on the site
+* you get to chose a name and surname and also the email you want to get the notification that the site has been updated
+![subscribe](https://user-images.githubusercontent.com/47448917/224491095-d3e10544-1fbe-4388-a5fc-0cbe3426e075.PNG)
+
+ footer
+* the footer provides the user the ability to navigate to social media where they then can find zlatans social media pages
+
+
