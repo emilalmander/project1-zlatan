@@ -58,10 +58,21 @@ awards
 * the subscribe section also works correctly by taking an email in the email field and the submit button works. 
 * i can also confirm that there are no broken links, and that you get redirected correctly when clicking links on the page
 
-
+***
 
 BUGS 
-* when i first added the links to the navbar, the awards
+* there are no known bugs at the moment.
+
+***
+
+validator testing
+* html, no errors or warnings to show.
+* css, no errors or warnings to show.
+* accesibility, when lighthouse testing the page it got this score.
+
+![lighthouse score](https://user-images.githubusercontent.com/47448917/224492861-8078439e-9b13-40be-835a-a75df2e84292.PNG)
+
+***
 
 
 
