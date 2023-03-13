@@ -19,51 +19,99 @@ body {
 /* headings and logo */
 
 h1, h2 {
+    
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-    
-}
-
-
-
-/* nav links/menu */ 
-
-#menu {
-    font-size: 180%;
-    letter-spacing: 4px;
-}
-
-#menu, #logo {
-    line-height: 75px;
 
 }
 
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;   
-}
-
-#menu a {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+  }
+  
+  .logo a {
+    font-size: 44px;
+    font-family: oswald, sans-serif;
+    font-weight: bold;
+    color: #333;
     text-decoration: none;
-    color: inherit;
-}
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-links a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
 
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
+  @media screen and (max-width: 1000px) {
+    .nav-links {
+      position: absolute;
+      z-index: 2;
+      right: 0px;
+      top: 70px;
+      height: 100px;
+      background-color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
+    }
+  
+    
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    #menu-toggle:checked ~ .nav-links {
+      transform: translateX(0%);
+      background-color: #333; 
+    }
+  
+    #menu-toggle:checked ~ .nav-links li {
+      opacity: 1; 
+    }
+  
+    #menu-toggle:checked ~ .nav-links a {
+      color: #fff; 
+    }
+  
+    
+  }
     /* zlatan image */
 #zlatan-outer {
     height: 600px;
