@@ -16,7 +16,8 @@ FEATURES
 navigation
 
 * Featured at the top of the page, the navigation shows the name of the page to the left that takes you to the start of the page when clicked
-* the other links(awards, home, subscribe and fun fact. clicking awards takes you to another site, clicking on home, subscribe or funfact redirects you on the home page
+* clicking awards takes you to another site, clicking on home, subscribe or funfact redirects you on the home page
+* theres also a ham menu when the page is small that makes it easy to see the links.
 * the navigation is in a font that has good contrast to the background.
 * the navigation clearly shows what the different links does
 

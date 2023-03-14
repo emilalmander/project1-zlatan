@@ -78,7 +78,7 @@ nav {
    @media screen and (max-width: 1000px) {
     .nav-links {
       position: absolute;
-      z-index: 2;
+      
       right: 0px;
       top: 70px;
       height: 100px;
@@ -314,21 +314,7 @@ span a {
         font-size: 24px;
         
     }
-    .box-container {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
     
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
     
     #fun-fact {
         font-size: 35px;
@@ -352,23 +338,7 @@ span a {
     
 
     #cover-text {
-        font-size: 100%;
-        font-family: oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-    
-        width: 200px;
-        height: 151px;
-    
-        padding-top: 40px;
-        padding-left: 10px;
-    
-        background-color: rgba(241, 109, 107, .7);
-    
-        bottom: 30px;
-        right: 150px;
         
-        position: absolute;
     }
     #sign-up-text {
         font-size: 70px; 
