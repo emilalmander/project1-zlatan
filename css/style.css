@@ -78,10 +78,10 @@ nav {
    @media screen and (max-width: 1000px) {
     .nav-links {
       position: absolute;
-      
+      z-index: 2;
       right: 0px;
       top: 70px;
-      height: 100px;
+      
       background-color: #333;
       display: flex;
       flex-direction: column;
@@ -110,12 +110,22 @@ nav {
     #menu-toggle:checked ~ .nav-links a {
       color: #fff; 
     }
+    #menu-toggle ~ .nav-links {
+        transform: translateY(0%);
+        background-color: transparent;
+      }
+      
+       #menu-toggle ~ .nav-links li {
+        opacity: 0;
+      }
+    
   
     
   }
     /* zlatan image */
 #zlatan-outer {
     height: 600px;
+    z-index: 1;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -337,9 +347,7 @@ span a {
 
     
 
-    #cover-text {
-        
-    }
+    
     #sign-up-text {
         font-size: 70px; 
     }
