@@ -414,6 +414,14 @@ span a {
     #sign-up-text {
         font-size: 40px; 
     }
+    span a {
+        text-decoration: none;
+        color: rgb(180, 101, 101);
+        font-size: 35px;
+        top: -200px;
+        
+        position: relative;
+    }
     
     
 }
