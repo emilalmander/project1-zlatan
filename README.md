@@ -84,7 +84,7 @@ deployment
 
 credits
 
-* the code to make the header was taken from CI love running project.
+* the code to make the "zlatan image" was taken from "the running project"
 
 * the images were both from wallpapertag.com, they claim that they own every photo on the page. and in their terms & privacy it says that i can use the images as long as its not for commersial use. 
 
