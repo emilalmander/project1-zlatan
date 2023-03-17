@@ -308,6 +308,13 @@ span a {
   #fun-fact {
     font-size: 35px;
   }
+  form {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    border: 1.5px solid #252424;
+    border-radius: 10px;
+  }
 }
 @media screen and (max-width: 650px) {
   .box1 {
