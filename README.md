@@ -52,11 +52,11 @@ FEATURES
 ![awards](https://user-images.githubusercontent.com/47448917/224491553-6e57e226-31be-4e32-896a-c371601ea369.PNG)
  ***
  testing
-* i have tested the page in chrome and operaGX
-* i also tested different screen sizes using the devtools device toolbar and can confirm it looks good on them.
-* i can also confirm that all the sections looks good and are easy to both read and click on smaller screens.
+* the team have tested the page in chrome and operaGX
+* the team also tested different screen sizes using the devtools device toolbar and can confirm it looks good on them.
+* the team can also confirm that all the sections looks good and are easy to both read and click on smaller screens.
 * the subscribe section also works correctly by taking an email in the email field and the submit button works. 
-* i can also confirm that there are no broken links, and that you get redirected correctly when clicking links on the page
+* the team can also confirm that there are no broken links, and that you get redirected correctly when clicking links on the page
 
 ***
 
@@ -65,7 +65,7 @@ BUGS
 
 ***
 
-validator testing
+VALIDATOR TESTING
 * html, no errors or warnings to show.
 * css, no errors or warnings to show.
 * accesibility, when lighthouse testing the page it got this score.
@@ -73,7 +73,7 @@ validator testing
 ![lighthouse score](https://user-images.githubusercontent.com/47448917/224492861-8078439e-9b13-40be-835a-a75df2e84292.PNG)
 
 ***
-deployment
+DEPLOYMENT
 * the site was deployed to github pages, to deploy the page follow the steps below
 * first go to github repository then go to settings lab
 * select the main branch in the drop down menu
@@ -81,7 +81,7 @@ deployment
 
 ***
 
-credits
+CREDITS
 
 * the code to make the "zlatan image" was taken from "the running project"
 
