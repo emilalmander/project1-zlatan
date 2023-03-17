@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+/* headings and logo */
+
+h1,
+h2 {
+  font-family: oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+
+.logo a {
+  font-size: 44px;
+  font-family: oswald, sans-serif;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+.nav-links a:hover {
+  color: rgba(241, 109, 107, 0.7);
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-links {
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    top: 70px;
+    height: 200px;
+
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    transform: translateX(0%);
+    background-color: #333;
+  }
+
+  #menu-toggle:checked ~ .nav-links li {
+    opacity: 1;
+  }
+
+  #menu-toggle:checked ~ .nav-links a {
+    color: #fff;
+  }
+  #menu-toggle ~ .nav-links {
+    transform: translateY(0%);
+    background-color: transparent;
+  }
+
+  #menu-toggle ~ .nav-links li {
+    opacity: 0;
+  }
+}
+/* zlatan image */
+#zlatan-outer {
+  height: 600px;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#zlatan-image {
+  height: 700px;
+  width: 100%;
+  background: url("../image/picture123.webp") no-repeat center center;
+}
+
+/* text on the image */
+
+#cover-text,
+#cover-text h2 {
+  color: #fff;
+}
+#cover-text {
+  font-size: 130%;
+  font-family: oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+  background-color: rgba(241, 109, 107, 0.7);
+
+  bottom: 30px;
+  right: 150px;
+
+  position: absolute;
+}
+/* link in text on the image */
+.stadium-link {
+  text-decoration: none;
+  color: black;
+  font-family: oswald, sans-serif;
+}
+/* award boxes */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  max-width: 992px;
+}
+
+.box {
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  margin: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(180, 101, 101);
+  height: 300px;
+  width: 200px;
+}
+
+.box h2 {
+  margin-top: 0;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+/* text above sign up form */
+
+.sign-up-info {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 900px;
+}
+
+#sign-up-text {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#sign-up-more-info {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* subscribe form */
+
+form {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  border: 1.5px solid #252424;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1.5px solid #252424;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+button[type="submit"] {
+  background-color: rgb(209, 102, 102);
+  color: black;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* fun fact boxes */
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../image/zlatan.1234\ \(1\).webp);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  clear: left;
+}
+.box1 {
+  flex: 0 0 calc(50% - 20px);
+  height: 45vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* text inside fun fact boxes */
+#fun-fact {
+  font-size: 50px;
+  font-family: oswald, sans-serif;
+  font-weight: bold;
+}
+
+/* footer */
+
+span + span {
+  margin-left: 100px;
+}
+
+.footer-logo {
+  padding-bottom: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: gray;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(180, 101, 101);
+  font-size: 55px;
+
+  position: relative;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 987px) {
+  .box1 {
+    overflow: hidden;
+    font-size: 24px;
+  }
+
+  #fun-fact {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .box1 {
+    font-size: 14px;
+  }
+  #cover-text {
+    font-size: 130%;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+    left: 0;
+    bottom: 20px;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  #sign-up-text {
+    font-size: 70px;
+  }
+  span + span {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .box-container {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo a {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 309px) {
+  .logo a {
+    font-size: 20px;
+  }
+  #sign-up-text {
+    font-size: 40px;
+  }
+  span a {
+    text-decoration: none;
+    color: rgb(180, 101, 101);
+    font-size: 35px;
+    top: -200px;
+
+    position: relative;
+  }
+}
