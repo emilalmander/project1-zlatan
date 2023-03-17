@@ -52,11 +52,12 @@ FEATURES
 ![awards](https://user-images.githubusercontent.com/47448917/224491553-6e57e226-31be-4e32-896a-c371601ea369.PNG)
  ***
  testing
-* the team have tested the page in chrome and operaGX
+* the team have tested the page in chrome, operaGX and safari.
 * the team also tested different screen sizes using the devtools device toolbar and can confirm it looks good on them.
 * the team can also confirm that all the sections looks good and are easy to both read and click on smaller screens.
 * the subscribe section also works correctly by taking an email in the email field and the submit button works. 
 * the team can also confirm that there are no broken links, and that you get redirected correctly when clicking links on the page
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
 ***
 
@@ -79,6 +80,15 @@ DEPLOYMENT
 * select the main branch in the drop down menu
 * once the main branch has been selected the page will provied the link to the website.
 
+LOCAL CLONE
+* log in to github and locate the github repository
+* Under the repository name, click "Clone or download".
+* To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+* Open Git Bash
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone, and then paste the URL you copied in Step 3.
+* Press Enter. Your local clone will be created.
+ 
 ***
 
 CREDITS
