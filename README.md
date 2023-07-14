@@ -63,6 +63,8 @@ FEATURES
 
 BUGS 
 * there are no known bugs at the moment.
+* theres a bug in the history page where the navbar is still clickable but invisible, so if you click on the text you might end up on the home page.
+
 
 ***
 
