@@ -1,5 +1,8 @@
+/* imported font */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
 
+
+/* general styling */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +14,7 @@ body {
   font-weight: 300;
   color: #3a3a3a;
 }
-/* headings and logo */
+/* navbar */
 
 h1,
 h2 {
@@ -71,7 +74,7 @@ nav {
   transition: all 0.3s ease;
   width: 100%;
 }
-
+/* navbar, media queires*/
 @media screen and (max-width: 1000px) {
   .nav-links {
     position: absolute;
@@ -297,7 +300,7 @@ span a {
   position: relative;
 }
 
-/* Media queries */
+/* Media queries, funfact boxes */
 
 @media screen and (max-width: 987px) {
   .box1 {
@@ -316,6 +319,7 @@ span a {
     border-radius: 10px;
   }
 }
+/* Media queries, text on image */
 @media screen and (max-width: 650px) {
   .box1 {
     font-size: 14px;
@@ -346,7 +350,7 @@ span a {
     overflow: auto;
   }
 }
-
+/* Media queries, sign up form */
 @media screen and (max-width: 587px) {
   #sign-up-text {
     font-size: 70px;
@@ -365,6 +369,7 @@ span a {
     line-height: 25px;
   }
 }
+/* Media queries, logo/navbar/singup text*/
 @media screen and (max-width: 400px) {
   .logo a {
     font-size: 30px;
